@@ -167,7 +167,7 @@ class MapScanner extends TileBehavior
 		{
 			for (int x = xpos-1; x < xpos-1+bi.width; x++)
 			{
-				city.setTile(x, y, (char) bi.members[i]);
+				city.setTile(x, y, (char) bi.members[i].tileNumber);
 				i++;
 			}
 		}
